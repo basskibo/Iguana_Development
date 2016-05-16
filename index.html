@@ -8,6 +8,8 @@
 <meta name="keywords" content="">
 <meta name="description" content="">
 
+<link rel="shortcut icon" href="images/logo.png" type="img/x-icon">
+
 <!-- STYLESHEET CSS FILES -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/animate.min.css">
@@ -15,6 +17,8 @@
 <link rel="stylesheet" href="css/nivo-lightbox.css">
 <link rel="stylesheet" href="css/nivo_themes/default/default.css">
 <link rel="stylesheet" href="css/templatemo-style.css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 <!-- preloader section -->
@@ -38,8 +42,8 @@
     <div class="navbar-header">
       <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> </button>
       <a href="#" class="navbar-brand">IGUANA</a></div>
-      <img src="images/logo.png">
-    <div class="collapse navbar-collapse">
+<!--       <img src="images/logo.png">
+ -->    <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#home" class="smoothScroll">HOME</a></li>
         <li><a href="#intro" class="smoothScroll">UVOD</a></li>
@@ -153,26 +157,96 @@
     </div>
 </section>
 <!-- portfolio section -->
-<div id="portfolio">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-offset-3 col-md-6 col-md-offset-3 col-sm-offset-2 col-sm-8 col-sm-offset-2 title">
-        <h2>Portfolio</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoree.</p>
-      </div>
-      <div class="col-md-12 col-sm-12"></div>
-      <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img1.jpg" alt="portfolio img"></a></div>
-      <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img2.jpg" alt="portfolio img"></a></div>
-      <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img3.jpg" alt="portfolio img"></a></div>
-      <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img4.jpg" alt="portfolio img"></a></div>
-      <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img5.jpg" alt="portfolio img"></a></div>
-      <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img6.jpg" alt="portfolio img"></a></div>
-      <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img7.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img7.jpg" alt="portfolio img"></a></div>
-      <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img8.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img8.jpg" alt="portfolio img"></a></div>
-    </div>
+  <div class="container" id="portfolio">
+      <h2>Portfolio</h2>
+      <h6>Fresh portfolio of designs that will keep you wanting more.</h6>
+      <div class="portfolioFilter">  
+        <ul class="Portfolio-nav wow fadeIn delay-02s">
+          <li><a href="#" data-filter="*" class="current" >All</a></li>
+            <li><a href="#" data-filter=".branding" >Branding</a></li>
+            <li><a href="#" data-filter=".webdesign" >Web design</a></li>
+            <li><a href="#" data-filter=".printdesign" >Print design</a></li>
+            <li><a href="#" data-filter=".photography" >Photography</a></li>
+        </ul>
+       </div> 
+        
   </div>
-</div>
+    <div class="portfolioContainer wow fadeInUp delay-04s">
+              <div class=" Portfolio-box printdesign">
+                  <a href="#"><img src="images/Portfolio-pic1.jpg" alt=""></a> 
+                  <h3>Foto Album</h3>
+                    <p>Print Design</p>
+                </div>
+                <div class="Portfolio-box webdesign">
+                  <a href="#"><img src="images/Portfolio-pic2.jpg" alt=""></a> 
+                  <h3>Luca Theme</h3>
+                    <p>Web Design</p>
+                </div>
+                <div class=" Portfolio-box branding">
+                  <a href="#"><img src="images/Portfolio-pic3.jpg" alt=""></a> 
+                  <h3>Uni Sans</h3>
+                    <p>Branding</p>
+                </div>
+                <div class=" Portfolio-box photography" >
+                  <a href="#"><img src="images/Portfolio-pic4.jpg" alt=""></a> 
+                  <h3>Vinyl Record</h3>
+                    <p>Photography</p>
+                </div>
+                <div class=" Portfolio-box branding">
+                  <a href="#"><img src="images/Portfolio-pic5.jpg" alt=""></a> 
+                  <h3>Hipster</h3>
+                    <p>Branding</p>
+                </div>
+                <div class=" Portfolio-box photography">
+                  <a href="#"><img src="images/Portfolio-pic6.jpg" alt=""></a> 
+                  <h3>Windmills</h3>
+                    <p>Photography</p>
+                </div>
+    </div>
+
+<section class="main-section alabaster"><!--main-section alabaster-start-->
+  <div class="container">
+      <div class="row">
+      <figure class="col-lg-5 col-sm-4 wow fadeInLeft">
+              <img  src="images/iphone.png" alt="">
+            </figure>
+          <div class="col-lg-7 col-sm-8 featured-work">
+              <h2>featured work</h2>
+              <P class="padding-b">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</P>
+              <div class="featured-box">
+                  <div class="featured-box-col1 wow fadeInRight delay-02s">
+                      <i class="fa-magic"></i>
+                    </div>  
+                  <div class="featured-box-col2 wow fadeInRight delay-02s">
+                        <h3>magic of theme development</h3>
+                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                    </div>    
+                </div>
+                <div class="featured-box">
+                  <div class="featured-box-col1 wow fadeInRight delay-04s">
+                      <i class="fa-gift"></i>
+                    </div>  
+                  <div class="featured-box-col2 wow fadeInRight delay-04s">
+                        <h3>neatly packaged</h3>
+                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                    </div>    
+                </div>
+                <div class="featured-box">
+                  <div class="featured-box-col1 wow fadeInRight delay-06s">
+                      <i class="fa-dashboard"></i>
+                    </div>  
+                  <div class="featured-box-col2 wow fadeInRight delay-06s">
+                        <h3>SEO optimized</h3>
+                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+                    </div>    
+                </div>
+                <a class="Learn-More" href="#">Learn More</a>
+            </div>
+        </div>
+  </div>
+</section><!--main-section alabaster-end-->
+
+
 <!-- price section -->
 <div id="price">
   <div class="container">
@@ -279,6 +353,8 @@
 </footer>
 <!-- JAVASCRIPT JS FILES --> 
 <script src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/nivo-lightbox.min.js"></script> 
 <script src="js/smoothscroll.js"></script> 
@@ -286,5 +362,7 @@
 <script src="js/jquery.parallax.js"></script> 
 <script src="js/wow.min.js"></script> 
 <script src="js/custom.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+
 </body>
 </html>
