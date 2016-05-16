@@ -146,8 +146,8 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:#7cc576;
-	color:#fff !important;
+	background:#ffc000;
+	color:#000 !important;
 	font-size:16px;
 	font-weight:400;
 	font-family: 'Montserrat', sans-serif;
@@ -162,14 +162,18 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:#7cc576 !important;
+	color:ffc000!important;
 	background:#fff;
 }
 
 .link:active, .link:focus {
-	background: #7cc576;
+	background: #ffc000;
 	text-decoration:none;
 	color:#fff !important;
+}
+.malilogo{
+position: relative;
+right: 250px;
 }
 
 /* Navigation
@@ -183,13 +187,15 @@ color: #fff;
 }
 .main-nav{
 	text-align:center;
-	margin:10px 0 0px;
+	margin:0px;
 	padding:0;
 	list-style:none;
 }
 .main-nav li{
 	display:inline;
-	margin:0 1px;
+	margin:0 -10px;
+	position: relative;
+	left: 270px;
 }
 .main-nav li a{
 	display:inline-block;
@@ -206,11 +212,11 @@ color: #fff;
 
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #7cc576;
+	color: #ffc000;
 }
 
 .small-logo{ 
-	padding:0 32px;
+	padding:0 0px;
 }
 
 .main-section{
@@ -292,7 +298,7 @@ color: #fff;
 .Learn-More{
 	display:inline-block;
 	padding:0 5px 0 0;
-	color:#7cc576;
+	color:#ffc000;
 	font-size:16px;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
@@ -341,7 +347,7 @@ color: #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 .Portfolio-nav li a:hover{
-	background:#7cc576;
+	background:#ffc000;
 	color:#fff;
 	text-decoration:none;
 }
@@ -372,7 +378,7 @@ color: #fff;
 }
 
 .Portfolio-nav li a.current{
-	background:#7cc576;
+	background:#ffc000;
 	color:#fff;
 	text-decoration:none;
 }
@@ -446,13 +452,13 @@ img {
 	width:68px;
 	height:68px;
 	margin:0 auto;
-	border:2px solid #7cc576;
+	border:2px solid #ffc000;
 	border-radius:50%;
 	display:block;
 	line-height:68px;
 	text-align:center;
 	font-size:27px;
-	color:#7cc576;
+	color:#ffc000;
 	cursor: pointer;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
@@ -465,7 +471,7 @@ border: 2px solid #fff;
 }
 
 .c-logo-part{
-	background:#7cc576;
+	background:#ffc000;
 	padding:25px 0;
     filter: alpha(opacity=60);
 }
@@ -704,7 +710,7 @@ border: 2px solid #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 .input-text:focus {
-	border: 1px solid #7cc576;
+	border: 1px solid #ffc000;
 	outline:0;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
 	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);	
@@ -719,7 +725,7 @@ border: 2px solid #fff;
 .input-btn{
 	width:175px;
 	height:50px;
-	background:#7cc576;
+	background:#ffc000;
 	border-radius:4px;
 	color:#ffffff;
 	font-size:14px;
@@ -739,14 +745,19 @@ border: 2px solid #fff;
 
 /* Footer
 ---------------------------------*/
+.footerlogo{
+width: 150px
+}
 
 .footer{
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:35px 0 35px;
+	padding:10px;
 }
-.footer-logo{
-	margin:15px auto 35px;
-	width: 76px;
+.footerlogo{
+	width: 150px;
+    position: relative;
+    left: 640px;
+    padding: 10px;
 }
 .copyright{
 	color:#cccccc;
@@ -755,7 +766,7 @@ border: 2px solid #fff;
 	text-align:center;
 }
 .copyright a{
-	color:#7cc576;
+	color:#ffc000;
 	font-weight:600;
 	text-decoration: none;
 	transition:all 0.3s ease-in-out;
@@ -784,7 +795,7 @@ border: 2px solid #fff;
 }
 
 .res-nav_click:hover, .res-nav_click:active, .res-nav_click:focus {
-	color: #7cc576 !important;
+	color: #ffc000 !important;
 }
 
 .portfolioContainer{
