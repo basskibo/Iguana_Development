@@ -99,7 +99,7 @@ h6 {
 .sk-spinner-rotating-plane.sk-spinner {
 	width: 40px;
 	height: 40px;
-	background-color: #eb5424;
+	background-color: #ffc000;
 	border-radius: 50%;
 	-webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
 	animation: sk-rotatePlane 1.2s infinite ease-in-out;
@@ -137,7 +137,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	letter-spacing: 2px;
 }
 #home .btn {
-	background: #eb5424;
+	background: #ffc000;
 	border-radius: 4px;
 	border: none;
 	color: #ffffff;
@@ -147,7 +147,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 #home .btn:hover {
 	background: #fff;
-	color: #eb5424;
+	color: #ffc000;
 	transition: all 0.4s ease-in-out;
 }
 /* navigation section */
@@ -171,14 +171,14 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	line-height: 40px;
 }
 .navbar-default .navbar-nav li a:hover {
-	color: #eb5424;
+	color: #ffc000;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #606060;
 	background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #eb5424;
+	color: #ffc000;
 	background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -186,7 +186,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-top: 12px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background: #eb5424;
+	background: #ffc000;
 	border-color: transparent;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -217,7 +217,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	color: #ffffff;
 }
 #work .bg-red {
-	background-color: #eb5424;
+	background-color: #ffc000;
 	color: #ffffff;
 }
 #work h3 {
@@ -259,7 +259,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	font-weight: bold;
 }
 #team .team-des {
-	background-color: #eb5424;
+	background-color: #ffc000;
 	color: #ffffff;
 	padding: 20px 12px;
 	position: relative;
@@ -278,7 +278,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	line-height: 20px;
 }
 #portfolio h3 {
-	color: #eb5424;
+	color: #ffc000;
 	padding-bottom: 60px;
 }
 #portfolio a {
@@ -304,7 +304,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-bottom: 120px;
 }
 #price .plan {
-	background: #eb5424;
+	background: #ffc000;
 	color: #ffffff;
 	padding: 0 0 60px 0;
 }
@@ -369,7 +369,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	height: 50px;
 }
 #contact input[type="submit"] {
-	background-color: #eb5424;
+	background-color: #ffc000;
 	color: #ffffff;
 	height: 60px;
 	font-weight: bold;
@@ -394,7 +394,7 @@ footer p {
 	line-height: 20px;
 }
 footer .copyright a {
-	color: #eb5424;
+	color: #ffc000;
 }
 .social-icon {
 	padding: 0;
@@ -409,7 +409,7 @@ footer .copyright a {
 .social-icon li a {
 	background: #f8f8f8;
 	border-radius: 100%;
-	color: #eb5424;
+	color: #ffc000;
 	font-size: 32px;
 	width: 80px;
 	height: 80px;
