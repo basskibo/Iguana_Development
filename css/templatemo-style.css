@@ -267,7 +267,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 #team img {
 	max-width: 100%;
 	height: auto;
-	padding-top: 60px;
+
 }
 /* portfolio section */
 #portfolio {
