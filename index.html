@@ -4,13 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, maximum-scale=1">
 
-<title>Homepage</title>
+<title>Iguana Development</title>
 <link rel="icon" href="mini.png" type="image/png">
 <link rel="shortcut icon" href="mini1.png" type="img/x-icon">
 
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
-
+<!-- <link href="https://fonts.googleapis.com/css?family=Raleway|Suez+One" rel="stylesheet">
+ -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -18,7 +19,8 @@
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/theme.css" type="text/css" />
 
-<!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+<!--Angular import CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 
 <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -27,7 +29,8 @@
 <script type="text/javascript" src="js/jquery.isotope.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
-<!--november-->
+
+<!--november slider-->
 <script type="text/javascript" src="js/jquery.sudoSlider.min.js"></script>
 <script type="text/javascript" src="js/global.js"></script>
 <script type="text/javascript" src="js/modernizr.js"></script>
@@ -56,8 +59,11 @@
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
 	<div class="container">
         <ul class="main-nav">
-            <img class="malilogo" src="img/small-logo.png">
-        	<li><a href="#header">Home</a></li>
+<!--             <img class="malilogo" src="img/small-logo.png">
+
+ -->  
+            <img class="img" src="img/small-logo.png"> </img>
+      	    <li><a href="#header">Home</a></li>
             <li><a href="#service">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#team">Team</a></li>
@@ -104,17 +110,17 @@
                         <p>We are developing mobile apps in frameworks like Ionic and phonegap.More you can find in our portfolio.</p>
                     </div>
                 </div>
-                 <div class="service-list">
+                 <!-- <div class="service-list">
                     <div class="service-list-col1">
                         <i class="fa-bullhorn"></i>
                     </div>
                     <div class="service-list-col2">
                         <h3>Marketing</h3>
-                      <!--   <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
-                        <span class="sr-only">Loading...</span> -->
+                        <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+                        <span class="sr-only">Loading...</span>
                         <p>If you have some questions or need our help,contact us and our support team will answer in no time.</p>
                     </div>
-                </div>
+                </div> -->
                 <div class="service-list">
                 	<div class="service-list-col1">
                     	<i class="fa-support"></i>
@@ -300,7 +306,7 @@
                 <span class="wow fadeInDown delay-09s">Co-founder</span>
                 <p class="wow fadeInDown delay-09s">Marketing Expert</p>
             </div>
-            <div class="team-leader-box">
+         <!--    <div class="team-leader-box">
                 <div class="team-leader wow fadeInDown delay-03s"> 
                     <div class="team-leader-shadow"><a href="#"></a></div>
                     <img src="img/zeleni.jpg" alt="">
@@ -316,7 +322,7 @@
                 <span class="wow fadeInDown delay-03s">Web Designer </span>
                 <i class="fa fa-user" aria-hidden="true"></i>
                 <a href='http://bladesign.tk' target="_blank" >http://bladesign.tk </a>
-            </div>
+            </div> -->
         </div>
     </div>
 </section><!--main-section team-end-->
@@ -328,23 +334,24 @@
         <h2>Contact us</h2>
     </div>
 </section><!--business-talking-end-->
-<div class="container">
+<div class="container contactCont">
 <section class="main-section contact" id="contact">
 	
         <div class="row">
         	<div class="col-lg-6 col-sm-7 wow fadeInLeft">
             	<div class="contact-info-box address clearfix">
                 	<h3><i class=" icon-map-marker"></i>Address:</h3>
-                	<span><br>Serbia, Novi Sad, 21000.</span>
+                	<span>Serbia, Novi Sad, 21000.</span>
                 </div>
                 <div class="contact-info-box phone clearfix">
                 	<h3><i class="fa-phone"></i>Phone:</h3>
                 	<span>+381 6957-55-659</span>
                 </div>
                 <div class="contact-info-box email clearfix">
-                	<h3><i class="fa-pencil"></i>email:</h3>
-                	<span>bojan.jagetic@gmail.com</span>
-                    <span>draganspancic021novisad@gmail.com</span>
+                	<h3><i class="fa-envelope-o"></i>email:</h3>
+                    <span><a href="mailto:iguana.development.ns@gmail.com?Subject=Hello_world" target="_top">iguana.development.ns@gmail.com</a></span>
+                	<span>info@iguanadevelopment.tk</span>
+                   
 
                 </div>
             	
@@ -353,7 +360,6 @@
                     <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>
                     <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>
                     <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
-                    <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>
                 </ul>
             </div>
         	<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">

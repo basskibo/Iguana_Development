@@ -61,6 +61,7 @@ body {
 	font-weight:normal;
 	color:#888888;
 	margin:0;
+
 }
 h2{
 	font-size:34px;
@@ -98,7 +99,7 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/bg1.jpg) left top repeat;
+	background:url(https://w-dog.net/wallpapers/9/17/342409545117133/night-desert-rock-canyon.jpg) left top repeat;
 	padding:100px 0;
 }
 .logo{
@@ -143,7 +144,9 @@ p{
 color: #fff;
 }
 
-
+.contactCont{
+	background: url(https://wwwassets.rand.org/etc/rand/designs/common/images/xworld-map.png.pagespeed.ic.0R8OKrMv9p.png) 10px no-repeat;
+}
 .link{
 	padding:15px 35px;
 	background:#ffc000;
@@ -194,7 +197,6 @@ float:left;
 .main-nav li{
 	display:inline;
 	margin:0 -10px;
-	position: relative;
 	left: 270px;
 }
 .main-nav li a{
@@ -621,8 +623,8 @@ border: 2px solid #fff;
 }
 
 .main-section.contact{
-	background:url(../img/bg-map.png) left 190px no-repeat;
-}
+/*	background:url(../img/bg-map.png) left 190px no-repeat;
+*/}
 .contact-info-box{
 	font-size:15px;
 	margin:0 0 14px 68px;
