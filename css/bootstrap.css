@@ -706,6 +706,16 @@ pre code {
   .container {
     width: 1170px;
   }
+  .container1 {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
 }
 .row {
   margin-left: -15px;
